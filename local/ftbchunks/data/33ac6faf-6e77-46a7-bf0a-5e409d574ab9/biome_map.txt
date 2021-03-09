@@ -1,0 +1,17 @@
+#481 minecraft:badlands_plateau
+#1FE terraforged:bryce
+#63B byg:canyons
+#008 minecraft:desert
+#7F0 biomesoplenty:dryland
+#70E atmospheric:dunes
+#103 byg:dunes
+#678 byg:fresh_water_lake
+#602 byg:great_lake_isles
+#4DB byg:oasis
+#3DC minecraft:plains
+#6BF byg:red_desert_dunes
+#0C3 atmospheric:rocky_dunes
+#67B minecraft:savanna
+#274 biomesoplenty:scrubland
+#454 minecraft:wooded_badlands_plateau
+#201 biomesoplenty:wooded_scrubland

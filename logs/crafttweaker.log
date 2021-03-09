@@ -1,0 +1,10 @@
+[23:01:35.371][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[23:01:35.889][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'aquaculture' at version '1.16.5-2.1.16'
+'botanypots' at version '7.0.4'
+'crafttweaker' at version '7.1.0.145'
+'createtweaker' at version '1.0.0.9'
+'jeitweaker' at version '1.0.1.14'
+[23:01:36.786][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[23:03:36.525][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[23:03:36.910][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!

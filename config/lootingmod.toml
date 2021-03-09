@@ -1,0 +1,307 @@
+
+#The Configuration of this Mod.
+[general]
+	#Enables / Disables the CreeperKill Enchant.
+	#Default: true
+	EnableCreeperKill = true
+	#The max level for the enchantments of class DamageEnchantment(Sharpness, Smite and Bane of Arthropods).
+	#Default: 6
+	#Range: 1 ~ 10
+	DamageEnchantmentLvl = 6
+	#The max level for the enchantments of class LootBonusEnchantment(Looting, Fortune and Luck of the Sea).
+	#Default: 6
+	#Range: 1 ~ 10
+	LootBonusEnchantmentLvl = 6
+	#The max level for the enchantments of class ProtectionEnchantment(Protection, Fire Protection, Projectile Protection, Blast Protection and Feather Falling).
+	#Default: 6
+	#Range: 1 ~ 10
+	ProtectionEnchantmentLvl = 6
+	#The max level for the enchantments of class PowerEnchantment(Power).
+	#Default: 6
+	#Range: 1 ~ 10
+	PowerEnchantmentLvl = 6
+	#The max level for the enchantments of class EfficiencyEnchantment(Efficiency).
+	#Default: 6
+	#Range: 1 ~ 10
+	EfficiencyEnchantmentLvl = 6
+	#The max level for the enchantments of class UnbreakingEnchantment(Unbreaking).
+	#Default: 3
+	#Range: 1 ~ 10
+	UnbreakingEnchantmentLvl = 3
+	#The max level for the enchantments of class ThornsEnchantment(Thorns).
+	#Default: 3
+	#Range: 1 ~ 10
+	ThornsEnchantmentLvl = 3
+	#The max level for the enchantments of class RespirationEnchantment(Respiration).
+	#Default: 3
+	#Range: 1 ~ 10
+	RespirationEnchantmentLvl = 3
+	#The max level for the enchantments of class DepthStriderEnchantment(Depth Strider).
+	#Default: 3
+	#Range: 1 ~ 10
+	DepthStriderEnchantmentLvl = 3
+	#The max level for the enchantments of class FrostWalkerEnchantment(Frost Walker).
+	#Default: 2
+	#Range: 1 ~ 10
+	FrostWalkerEnchantmentLvl = 2
+	#The max level for the enchantments of class KnockbackEnchantment(Knockback).
+	#Default: 2
+	#Range: 1 ~ 10
+	KnockbackEnchantmentLvl = 2
+	#The max level for the enchantments of class FireAspectEnchantment(Fire Aspect).
+	#Default: 2
+	#Range: 1 ~ 10
+	FireAspectEnchantmentLvl = 2
+	#The max level for the enchantments of class PunchEnchantment(Punch).
+	#Default: 2
+	#Range: 1 ~ 10
+	PunchEnchantmentLvl = 2
+	#The max level for the enchantments of class LureEnchantment(Lure).
+	#Default: 3
+	#Range: 1 ~ 10
+	LureEnchantmentLvl = 3
+	#The max level for the enchantments of class SweepingEnchantment(Sweeping Edge).
+	#Default: 3
+	#Range: 1 ~ 10
+	SweepingEnchantmentLvl = 3
+	#The max level for the enchantments of class LoyaltyEnchantment(Loyalty).
+	#Default: 3
+	#Range: 1 ~ 10
+	LoyaltyEnchantmentLvl = 3
+	#The max level for the enchantments of class ImpalingEnchantment(Impaling).
+	#Default: 5
+	#Range: 1 ~ 10
+	ImpalingEnchantmentLvl = 5
+	#The max level for the enchantments of class RiptideEnchantment(Riptide).
+	#Default: 3
+	#Range: 1 ~ 10
+	RiptideEnchantmentLvl = 3
+	#The max level for the enchantments of class QuickChargeEnchantment(Quick Charge).
+	#Default: 3
+	#Range: 1 ~ 10
+	QuickChargeEnchantmentLvl = 3
+	#The max level for the enchantments of class PiercingEnchantment(Piercing).
+	#Default: 4
+	#Range: 1 ~ 10
+	PiercingEnchantmentLvl = 4
+	#The max level for the enchantments of class SoulSpeedEnchantment(Sould Speed).
+	#Default: 3
+	#Range: 1 ~ 10
+	SoulSpeedEnchantmentLvl = 3
+	#The base value for the min Enchantability of Sharpness. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	SharpnessBaseEnchantability = 1
+	#The base value for the min Enchantability of Smite. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 5
+	#Range: 0 ~ 50
+	SmiteBaseEnchantability = 5
+	#The base value for the min Enchantability of Bane of Arthropods. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 5
+	#Range: 0 ~ 50
+	BaneOfArthropodsBaseEnchantability = 5
+	#The multiplier for the min Enchantability of Sharpness. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 11
+	#Range: 0 ~ 50
+	SharpnessEnchantabilityMultiplier = 11
+	#The multiplier for the min Enchantability of Smite. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 8
+	#Range: 0 ~ 50
+	SmiteEnchantabilityMultiplier = 8
+	#The multiplier for the min Enchantability of Bane of Arthropods. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 8
+	#Range: 0 ~ 50
+	BaneOfArthropodsEnchantabilityMultiplier = 8
+	#The base value for the min Enchantability of the class LootBonusEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 15
+	#Range: 0 ~ 50
+	EnchantLootBonusBaseEnchantability = 15
+	#The multiplier for the min Enchantability of the class LootBonusEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 9
+	#Range: 0 ~ 50
+	EnchantLootBonusEnchantabilityMultiplier = 9
+	#The base value for the min Enchantability of Protection. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	ProtectionBaseEnchantability = 1
+	#The base value for the min Enchantability of Fire Protection. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 10
+	#Range: 0 ~ 50
+	FireProtectionBaseEnchantability = 10
+	#The base value for the min Enchantability of Feather Falling. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 5
+	#Range: 0 ~ 50
+	FeatherFallingBaseEnchantability = 5
+	#The base value for the min Enchantability of Blast Protection. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 5
+	#Range: 0 ~ 50
+	BlastProtectionBaseEnchantability = 5
+	#The base value for the min Enchantability of Projectile Protection. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 3
+	#Range: 0 ~ 50
+	ProjectileProtectionBaseEnchantability = 3
+	#The multiplier for the min Enchantability of Protection. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 11
+	#Range: 0 ~ 50
+	ProtectionEnchantabilityMultiplier = 11
+	#The multiplier for the min Enchantability of Fire Protection. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 8
+	#Range: 0 ~ 50
+	FireProtectionEnchantabilityMultiplier = 8
+	#The multiplier for the min Enchantability of Feather Falling. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 6
+	#Range: 0 ~ 50
+	FeatherFallingEnchantabilityMultiplier = 6
+	#The multiplier for the min Enchantability of Blast Protection. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 8
+	#Range: 0 ~ 50
+	BlastProtectionEnchantabilityMultiplier = 8
+	#The multiplier for the min Enchantability of Projectile Protection. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 6
+	#Range: 0 ~ 50
+	ProjectileProtectionEnchantabilityMultiplier = 6
+	#The base value for the min Enchantability of the class PowerEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	EnchantArrowDamageBaseEnchantability = 1
+	#The multiplier for the min Enchantability of the class PowerEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 10
+	#Range: 0 ~ 50
+	EnchantArrowDamageEnchantabilityMultiplier = 10
+	#The base value for the min Enchantability of the class EfficiencyEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	EnchantDiggingBaseEnchantability = 1
+	#The multiplier for the min Enchantability of the class EfficiencyEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 10
+	#Range: 0 ~ 50
+	EnchantDiggingEnchantabilityMultiplier = 10
+	#The base value for the min Enchantability of the class UnbreakingEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 5
+	#Range: 0 ~ 50
+	EnchantDurabilityBaseEnchantability = 5
+	#The multiplier for the min Enchantability of the class UnbreakingEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 8
+	#Range: 0 ~ 50
+	EnchantDurabilityEnchantabilityMultiplier = 8
+	#The base value for the min Enchantability of the class ThornsEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 10
+	#Range: 0 ~ 50
+	EnchantThornsBaseEnchantability = 10
+	#The multiplier for the min Enchantability of the class ThornsEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 20
+	#Range: 0 ~ 50
+	EnchantThornsEnchantabilityMultiplier = 20
+	#The base value for the min Enchantability of the class RespirationEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	EnchantOxygenBaseEnchantability = 1
+	#The multiplier for the min Enchantability of the class RespirationEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 10
+	#Range: 0 ~ 50
+	EnchantOxygenEnchantabilityMultiplier = 10
+	#The base value for the min Enchantability of the class DepthStriderEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	EnchantWaterWalkerBaseEnchantability = 1
+	#The multiplier for the min Enchantability of the class DepthStriderEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 10
+	#Range: 0 ~ 50
+	EnchantWaterWalkerEnchantabilityMultiplier = 10
+	#The base value for the min Enchantability of the class KnockbackEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	EnchantKnockbackBaseEnchantability = 1
+	#The multiplier for the min Enchantability of the class KnockbackEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 10
+	#Range: 0 ~ 50
+	EnchantKnockbackEnchantabilityMultiplier = 10
+	#The base value for the min Enchantability of the class FireAspectEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	EnchantFireAspectBaseEnchantability = 1
+	#The multiplier for the min Enchantability of the class FireAspectEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 10
+	#Range: 0 ~ 50
+	EnchantFireAspectEnchantabilityMultiplier = 10
+	#The base value for the min Enchantability of the class PunchEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 12
+	#Range: 0 ~ 50
+	EnchantArrowKnockbackBaseEnchantability = 12
+	#The multiplier for the min Enchantability of the class PunchEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 20
+	#Range: 0 ~ 50
+	EnchantArrowKnockbackEnchantabilityMultiplier = 20
+	#The base value for the min Enchantability of the class LureEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 15
+	#Range: 0 ~ 50
+	EnchantFishingSpeedBaseEnchantability = 15
+	#The multiplier for the min Enchantability of the class LureEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 9
+	#Range: 0 ~ 50
+	EnchantFishingSpeedEnchantabilityMultiplier = 9
+	#The base value for the min Enchantability of the class SweepingEdgeEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 15
+	#Range: 0 ~ 50
+	EnchantSweepingEdgeBaseEnchantability = 15
+	#The multiplier for the min Enchantability of the class SweepingEdgeEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 9
+	#Range: 0 ~ 50
+	EnchantSweepingEdgeEnchantabilityMultiplier = 9
+	#The base value for the min Enchantability of the class LoyaltyEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 5
+	#Range: 0 ~ 50
+	EnchantLoyaltyBaseEnchantability = 5
+	#The multiplier for the min Enchantability of the class LoyaltyEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 7
+	#Range: 0 ~ 50
+	EnchantLoyaltyEnchantabilityMultiplier = 7
+	#The base value for the min Enchantability of the class ImpalingEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	EnchantImpalingBaseEnchantability = 1
+	#The multiplier for the min Enchantability of the class ImpalingEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 8
+	#Range: 0 ~ 50
+	EnchantImpalingEnchantabilityMultiplier = 8
+	#The base value for the min Enchantability of the class RiptideEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 10
+	#Range: 0 ~ 50
+	EnchantRiptideBaseEnchantability = 10
+	#The multiplier for the min Enchantability of the class RiptideEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 7
+	#Range: 0 ~ 50
+	EnchantRiptideEnchantabilityMultiplier = 7
+	#The base value for the min Enchantability of the class QuickChargeEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 12
+	#Range: 0 ~ 50
+	EnchantQuickChargeBaseEnchantability = 12
+	#The multiplier for the min Enchantability of the class QuickChargeEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 20
+	#Range: 0 ~ 50
+	EnchantQuickChargeyEnchantabilityMultiplier = 20
+	#The base value for the min Enchantability of the class PiercingEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	EnchantPiercingBaseEnchantability = 1
+	#The multiplier for the min Enchantability of the class PiercingEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 10
+	#Range: 0 ~ 50
+	EnchantPiercingEnchantabilityMultiplier = 10
+	#The base value for the min Enchantability of the class SoulSpeedEnchantment. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	EnchantSoulSpeedBaseEnchantability = 1
+	#The multiplier for the min Enchantability of the class SoulSpeedEnchantment. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 10
+	#Range: 0 ~ 50
+	EnchantSoulSpeedEnchantabilityMultiplier = 10
+	#The base value for the min Enchantability of Creeper Kill. The min Enchantability is the result of baseEnchantability(this) + (enchantmentLevel - 1) * enchantabilityMultiplier.
+	#Default: 1
+	#Range: 0 ~ 50
+	CreeperKillBaseEnchantability = 1
+	#The multiplier for the min Enchantability of Creeper Kill. The min Enchantability is the result of baseEnchantability + (enchantmentLevel - 1) * enchantabilityMultiplier(this).
+	#Default: 9
+	#Range: 0 ~ 50
+	CreeperKillEnchantabilityMultiplier = 9
+

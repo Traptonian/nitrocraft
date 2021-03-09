@@ -1,0 +1,6 @@
+┏╸ma:trash_can_universal
+┃┏╸bo:enabled
+┃┣> Variable Type: java.lang.Boolean
+┃┣> Default: true
+┃┗╸
+┗╸

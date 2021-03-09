@@ -1,0 +1,273 @@
+
+[oregen]
+
+	[oregen.overworld]
+		#Generation of Copper Ore
+		copper_generation = true
+		#Maximum veinsize of Copper Ore
+		#Range: 1 ~ 16
+		copper_veinsize = 8
+		#Maximum height Copper Ore can be generated
+		#Range: 0 ~ 255
+		copper_height = 64
+		#How much Copper Ore will be generated per chunk
+		#Range: 1 ~ 32
+		copper_chunk_frequency = 20
+		#Generation of Tin Ore
+		tin_generation = true
+		#Maximum veinsize of Tin Ore
+		#Range: 1 ~ 16
+		tin_veinsize = 8
+		#Maximum height Tin Ore can be generated
+		#Range: 0 ~ 255
+		tin_height = 64
+		#How much Tin Ore will be generated per chunk
+		#Range: 1 ~ 32
+		tin_chunk_frequency = 20
+		#Generation of Silver Ore
+		silver_generation = true
+		#Maximum veinsize of Silver Ore
+		#Range: 1 ~ 16
+		silver_veinsize = 8
+		#Maximum height Silver Ore can be generated
+		#Range: 0 ~ 255
+		silver_height = 64
+		#How much Silver Ore will be generated per chunk
+		#Range: 1 ~ 32
+		silver_chunk_frequency = 20
+		#Generation of Lead Ore
+		lead_generation = true
+		#Maximum veinsize of Lead Ore
+		#Range: 1 ~ 16
+		lead_veinsize = 8
+		#Maximum height Lead Ore can be generated
+		#Range: 0 ~ 255
+		lead_height = 64
+		#How much Lead Ore will be generated per chunk
+		#Range: 1 ~ 32
+		lead_chunk_frequency = 20
+		#Generation of Platinum Ore
+		platinum_generation = true
+		#Maximum veinsize of Platinum Ore
+		#Range: 1 ~ 16
+		platinum_veinsize = 4
+		#Maximum height Platinum Ore can be generated
+		#Range: 0 ~ 255
+		platinum_height = 15
+		#How much Platinum Ore will be generated per chunk
+		#Range: 1 ~ 32
+		platinum_chunk_frequency = 2
+		#Generation of Uranium Ore
+		uranium_generation = true
+		#Maximum veinsize of Uranium Ore
+		#Range: 1 ~ 16
+		uranium_veinsize = 8
+		#Maximum height Uranium Ore can be generated
+		#Range: 0 ~ 255
+		uranium_height = 45
+		#How much Uranium Ore will be generated per chunk
+		#Range: 1 ~ 32
+		uranium_chunk_frequency = 10
+		#Generation of Ruby Ore in the Overworld
+		ruby_generation = true
+		#Maximum veinsize of Ruby Ore (Overworld)
+		#Range: 1 ~ 16
+		ruby_veinsize = 4
+		#Maximum height Ruby Ore can be generated in the Overworld
+		#Range: 0 ~ 255
+		ruby_height = 15
+		#How much Ruby Ore will be generated per chunk in the Overworld
+		#Range: 1 ~ 32
+		ruby_chunk_frequency = 2
+		#Generation of Topaz Ore
+		topaz_generation = true
+		#Maximum veinsize of Topaz Ore
+		#Range: 1 ~ 16
+		topaz_veinsize = 4
+		#Maximum height Topaz Ore can be generated
+		#Range: 0 ~ 255
+		topaz_height = 30
+		#How much Topaz Ore will be generated per chunk
+		#Range: 1 ~ 32
+		topaz_chunk_frequency = 5
+		#Generation of Cobalt Ore in the Overworld
+		cobalt_generation = true
+		#Maximum veinsize of Cobalt Ore (Overworld)
+		#Range: 1 ~ 16
+		cobalt_veinsize = 8
+		#Maximum height Cobalt Ore can be generated in the Overworld
+		#Range: 0 ~ 255
+		cobalt_height = 30
+		#How much Cobalt Ore will be generated per chunk in the Overworld
+		#Range: 1 ~ 32
+		cobalt_chunk_frequency = 5
+		#Generation of Nickel Ore
+		nickel_generation = true
+		#Maximum veinsize of Nickel Ore
+		#Range: 1 ~ 16
+		nickel_veinsize = 8
+		#Maximum height Nickel Ore can be generated
+		#Range: 0 ~ 255
+		nickel_height = 64
+		#How much Nickel Ore will be generated per chunk
+		#Range: 1 ~ 32
+		nickel_chunk_frequency = 20
+		#Generation of Zinc Ore
+		zinc_generation = true
+		#Maximum veinsize of Zinc Ore
+		#Range: 1 ~ 16
+		zinc_veinsize = 8
+		#Maximum height Zinc Ore can be generated
+		#Range: 0 ~ 255
+		zinc_height = 64
+		#How much Zinc Ore will be generated per chunk
+		#Range: 1 ~ 32
+		zinc_chunk_frequency = 20
+		#Generation of Titanium Ore
+		titanium_generation = true
+		#Maximum veinsize of Titanium Ore
+		#Range: 1 ~ 16
+		titanium_veinsize = 4
+		#Maximum height Titanium Ore can be generated
+		#Range: 0 ~ 255
+		titanium_height = 45
+		#How much Titanium Ore will be generated per chunk
+		#Range: 1 ~ 32
+		titanium_chunk_frequency = 10
+		#Generation of Tungsten Ore
+		tungsten_generation = true
+		#Maximum veinsize of Tungsten Ore
+		#Range: 1 ~ 16
+		tungsten_veinsize = 4
+		#Maximum height Tungsten Ore can be generated
+		#Range: 0 ~ 255
+		tungsten_height = 45
+		#How much Tungsten Ore will be generated per chunk
+		#Range: 1 ~ 32
+		tungsten_chunk_frequency = 10
+		#Generation of Lithium Ore
+		lithium_generation = true
+		#Maximum veinsize of Lithium Ore
+		#Range: 1 ~ 16
+		lithium_veinsize = 8
+		#Maximum height Lithium Ore can be generated
+		#Range: 0 ~ 255
+		lithium_height = 45
+		#How much Lithium Ore will be generated per chunk
+		#Range: 1 ~ 32
+		lithium_chunk_frequency = 10
+		#Generation of Aluminium Ore
+		aluminium_generation = true
+		#Maximum veinsize of Aluminium Ore
+		#Range: 1 ~ 16
+		aluminium_veinsize = 8
+		#Maximum height Aluminium Ore can be generated
+		#Range: 0 ~ 255
+		aluminium_height = 64
+		#How much Aluminium Ore will be generated per chunk
+		#Range: 1 ~ 32
+		aluminium_chunk_frequency = 20
+		#Generation of Amthyst Ore
+		amethyst_generation = true
+		#Maximum veinsize of Amthyst Ore
+		#Range: 1 ~ 16
+		amethyst_veinsize = 4
+		#Maximum height Amthyst Ore can be generated
+		#Range: 0 ~ 255
+		amethyst_height = 30
+		#How much Amthyst Ore will be generated per chunk
+		#Range: 1 ~ 32
+		amethyst_chunk_frequency = 5
+		#Generation of Sapphire Ore
+		sapphire_generation = true
+		#Maximum veinsize of Sapphire Ore
+		#Range: 1 ~ 16
+		sapphire_veinsize = 4
+		#Maximum height Sapphire Ore can be generated
+		#Range: 0 ~ 255
+		sapphire_height = 30
+		#How much Sapphire Ore will be generated per chunk
+		#Range: 1 ~ 32
+		sapphire_chunk_frequency = 5
+		#Generation of Osmium Ore
+		osmium_generation = true
+		#Maximum veinsize of Osmium Ore
+		#Range: 1 ~ 16
+		osmium_veinsize = 8
+		#Maximum height Osmium Ore can be generated
+		#Range: 0 ~ 255
+		osmium_height = 64
+		#How much Osmium Ore will be generated per chunk
+		#Range: 1 ~ 32
+		osmium_chunk_frequency = 20
+		#Generation of Opal Ore
+		opal_generation = true
+		#Maximum veinsize of Opal Ore
+		#Range: 1 ~ 16
+		opal_veinsize = 4
+		#Maximum height Opal Ore can be generated
+		#Range: 0 ~ 255
+		opal_height = 30
+		#How much Opal Ore will be generated per chunk
+		#Range: 1 ~ 32
+		opal_chunk_frequency = 5
+
+	[oregen.nether]
+		#Generation of Ruby Ore in the Nether
+		ruby_generation = true
+		#Maximum veinsize of Ruby Ore (Nether)
+		#Range: 1 ~ 16
+		ruby_veinsize = 4
+		#Maximum height Ruby Ore can be generated in the Nether
+		#Range: 0 ~ 255
+		ruby_height = 145
+		#How much Ruby Ore will be generated per chunk in the Nether
+		#Range: 1 ~ 32
+		ruby_chunk_frequency = 5
+		#Generation of Cobalt Ore
+		cobalt_generation = true
+		#Maximum veinsize of Cobalt Ore
+		#Range: 1 ~ 16
+		cobalt_veinsize = 8
+		#Maximum height Cobalt Ore can be generated
+		#Range: 0 ~ 255
+		cobalt_height = 250
+		#How much Cobalt Ore will be generated per chunk
+		#Range: 1 ~ 32
+		cobalt_chunk_frequency = 10
+		#Generation of Ardite Ore
+		ardite_generation = true
+		#Maximum veinsize of Ardite Ore
+		#Range: 1 ~ 16
+		ardite_veinsize = 8
+		#Maximum height Ardite Ore can be generated
+		#Range: 0 ~ 255
+		ardite_height = 250
+		#How much Ardite Ore will be generated per chunk
+		#Range: 1 ~ 32
+		ardite_chunk_frequency = 10
+		#Generation of Netherium Ore
+		netherium_generation = true
+		#Maximum veinsize of Netherium Ore
+		#Range: 1 ~ 16
+		netherium_veinsize = 8
+		#Maximum height Netherium Ore can be generated
+		#Range: 0 ~ 255
+		netherium_height = 250
+		#How much Netherium Ore will be generated per chunk
+		#Range: 1 ~ 32
+		netherium_chunk_frequency = 5
+
+	[oregen.the_end]
+		#Generation of Enderium Ore
+		enderium_generation = true
+		#Maximum veinsize of Enderium Ore
+		#Range: 1 ~ 16
+		enderium_veinsize = 8
+		#Maximum height Enderium Ore can be generated
+		#Range: 0 ~ 255
+		enderium_height = 250
+		#How much Enderium Ore will be generated per chunk
+		#Range: 1 ~ 32
+		enderium_chunk_frequency = 5
+

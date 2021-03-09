@@ -1,0 +1,92 @@
+#[INTERNAL] Mod configuration version -- DO NOT ALTER, EVER!
+version = 1
+
+[general]
+	#[INTERNAL] Development workflow enabled. Do NOT enable in regular environment.
+	debug_mode = false
+	#Set to false to turn off extra documentation tooltips (style tips not affected). Enabled by default.
+	show_doc_tooltips = true
+	#Set to the amount an entity's horizontal movement is boosted when moving across pavers of any material. Defaults to an increase of 35%.
+	#Range: 0.0 ~ 5.0
+	paver_speed_boost = 0.35
+	#Set to true to allow retro carpets to be placed like slablets and tiles (a support block will NOT be required). Disabled by default.
+	floating_carpets = false
+	#Set to true to allow doors and trap doors to burn if made of a flammable material like wood. Disabled by default to match vanilla behavior.
+	burnable_doors = false
+	#Set to false to stop all mod-specific additions to structure and activity loot tables. Changing this affects things like villager trading and villager-gift loot. Enabled by default; requires restart if changed in-game.
+	enrich_loot_tables = true
+	#Set to "false" to disable direct integration with villager and traveling merchant trades tables. Leave as '*DEFAULT*' to permit trading depending on context and availability of other mods. Ignored if all loot table enrichment is turned off (no trades added).
+	npc_trading = "*DEFAULT*"
+	#Set to false to disable ALL extension items for standard blocks; for example,  walls for wood planks like Oak and Spruce, and slabs for Glass, Obsidian, and Glowstone.
+	extension_blocks = true
+	#Set to false to disable ALL retro-styled blocksets like those for wool, stone, granite, and andesite. (Note that not all hewn wood blocks belong to retro blocksets.) If set false, this setting can override some blocksets' show option.
+	retro_blocks = true
+	#Set to false to disable the pre-1.14 'hewn' versions of wood planks. Note that many new style or 'milled' planks are crafted from their hewn equivalents. If you hide the hewn block in Survival mode, you need to provide alternate ways to get the milled planks.
+	hewn_planks = true
+
+[integration]
+	#Set to "true" to require a chisel (this mod's gilded chisel or any item in the 'forge:tools/chisels' tag) for all style card conversions. Defaults false unless in debug mode or either Chisel or GardenCalypso is installed
+	require_chisel = "*DEFAULT*"
+	#Set to false to remove all style catalogs and style cards. If you do this you'll have to obtain the mod's main style blocks using alternate means like the creative menus, the /give command, or the Chisel mod.
+	include_style_catalog = true
+	#[ADVANCED] Set to true to have 'disabled' mean undefined. This will stop the mod from even creating the associated blocksets (which WILL break data packs unless YOU fix the mapping issues). Intended for modpacks that need to stop the creation of blocks. Disabled by default.
+	disabled_means_undefined = false
+	#Set to false to disable integration with automation mods like Chisel and Smart Hoppers that help simplify bulk-crafting of styled blocks.
+	automation_enabled = true
+
+[blocksets]
+	#Set to false to disable styled Oak Door variants. Does not affect doors of other styled blocks.
+	oak_doors = true
+	#Set to false to disable ALL new smooth stone related styled blocks including extensions like tiles and trapdoors for the base Minecraft block.
+	smooth_stone = true
+	#Set to false to disable ALL rawstone related styled blocks. Note that the base (flat) rawstone is disabled automatically if all retro blocks are disabled.
+	rawstone = true
+	#Set to false to disable ALL niostone related styled blocks.
+	niostone = true
+	#Set to false to disable ALL bleached stonebrick styled blocks.
+	bleached_stonebrick = true
+	#Set to false to disable ALL andesite related styled blocks. Note that all andesite blocks are disabled automatically if all retro blocks are disabled.
+	andesite = true
+	#Set to false to disable ALL granite related styled blocks. Note that all granite blocks are disabled automatically if all retro blocks are disabled.
+	granite = true
+	#Set to false to disable ALL diorite-related style blocks (like dior marble). Note that these blocks are NOT disabled automatically if all retro blocks are disabled.
+	diorite = true
+	#Set to false to disable ALL darkstone related styled blocks.
+	darkstone = true
+	#Set to false to disable ALL brownstone related styled blocks.
+	brownstone = true
+	#Set to false to disable ALL lightstone related styled blocks.
+	lightstone = true
+	#Set to false to disable ALL softclay and hardclay styled blocks. Note that softclay blocks, hardclay blocks, and base colored hardclay blocks are disabled automatically if all retro blocks are disabled.
+	hardclay = true
+	#Set to false to disable ALL netherbrick styled blocks excluding netherbrick bars.
+	netherbrick = true
+	#Set to false to disable ALL cobblestone related blocks. Note that only the retro cobblestone blocks are disabled automatically if all retro blocks are disabled.
+	cobblestone = true
+	#Set to false to disable most craft-only variant cobblestone like sandstone cobblestone and granite cobblestone. Note that these cobble blocks are used to craft other derived cobblestone like dense cobblestone.
+	variant_cobble = true
+	#Set to false to disable ALL prismarine style blocks. Note that the retro prismarine blocks are disabled automatically if all retro blocks are disabled.
+	prismarine = true
+	#Set to false to disable ALL yandstone styled blocks. Note that yandstone blocks are disabled automatically if all retro blocks are disabled.
+	yandstone = true
+	#Set to false to disable ALL retro wool styled blocks. Note that wool blocks are disabled automatically if all retro blocks are disabled.
+	wool = true
+	#Set to false to disable ALL bamboo (dried and green) related blocksets.
+	bamboo = true
+	#Set to false to disable the colorful dyed planks blocksets.
+	dyed_planks = true
+	#Set to false to disable the oak stain and colored 'cottage' broad wood blocksets.
+	cottage = true
+	#Set to false to disable ALL checkerboard related blocksets.
+	checkerboard = true
+	#Set to false to disable ALL simple clear glass blocksets. Does not affect framed or colored glass blocks.
+	clearglass = true
+	#Set to false to disable the imperfect glass blocksets including factory and dirty cottage glass.
+	imperfect_glass = true
+	#Set to false to disable ALL polished glowstone related blocksets.
+	polished_glowstone = true
+	#Set to true to enable bleeding glowstone blocks. Note that bleeding glowstone blocks are disabled automatically if all polished glowstone blocks are disabled.
+	bleeding_glowstone = false
+	#Set to false to disable ALL shingle styled blocksets (wooden and stone).
+	shingles = true
+

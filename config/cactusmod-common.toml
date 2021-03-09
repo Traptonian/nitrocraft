@@ -1,0 +1,33 @@
+
+#General settings
+[general]
+	#Decides if the Cactus Creeper spawns naturally [Default: true]
+	creeperSpawn = true
+	#Decides if the Cactus Cow spawns naturally [Default: true]
+	cowSpawn = true
+	#Decides if the Cactus Slime spawns naturally [Default: true]
+	slimeSpawn = true
+	#Decides if the Cactus Sheep spawns naturally [Default: true]
+	sheepSpawn = true
+	#Decides if the Cactus Pig spawns naturally [Default: true]
+	pigSpawn = true
+	#Decides if the Cactus Spider spawns naturally [Default: true]
+	spiderSpawn = true
+	#Decides if the Cactus Skeleton spawns naturally [Default: true]
+	skeletonSpawn = true
+	#Decides if the Cactus Cactoni spawns naturally [Default: false]
+	cactoniSpawn = true
+
+#Compat settings
+[compat]
+	#decides if right-clicking the Cactus Snow Man with a Statues sombrero will create a Cactoni [Default: true]
+	statuesCompat = true
+
+#Worldgen settings
+[worldgen]
+	#Decides if the Cactus Plant will generate [Default: true]
+	generateCactusPlant = true
+	#Decides the rarity in which the cactus plant spawns
+	#Range: > 1
+	cactusPlantRarity = 20
+

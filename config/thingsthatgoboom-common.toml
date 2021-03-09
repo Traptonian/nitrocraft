@@ -1,0 +1,21 @@
+
+["TnT Mallet Settings"]
+	#Range: 1 ~ 10000
+	"Mallet Durability" = 2775
+	"Targets Explodes in Melee" = true
+	"Generate Absorb Shield before Explosion" = true
+	"Explosive Strikes Break Blocks" = false
+	"Explosions Start Fires" = false
+
+["Explosive Orb Settings"]
+	#Range: 1 ~ 10000
+	"Orb Durability" = 20
+	"Targets Explodes in Melee" = true
+	"Generate Absorb on Melee" = true
+	"Explosions Start Fires" = false
+
+["Molotov Settings"]
+	#Range: 1 ~ 10000
+	"Molotov Durability" = 20
+	"Molotov Breaks in Melee" = true
+
